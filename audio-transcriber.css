@@ -1,0 +1,105 @@
+/* audio transcriber styling */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 15%;
+    padding: auto;
+    background-color: #fff;
+    border: 1% solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrap h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.wrap form {
+    margin-top: 20px;
+}
+
+.wrap label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+.wrap input[type="file"] {
+    margin-top: -5px;
+}
+
+#upload-transcribe-button {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    text-shadow: none;
+    margin-top: 10px;
+    margin-left: 1px;
+    border: 1px solid #2271b1;
+    border-radius: 3px;
+    background: #f6f7f7;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 2.15384615;
+    color: #2271b1;
+    padding: 0 10px;
+    min-height: 30px;
+}
+
+#upload-transcribe-button:hover {
+    background-color: lightgrey
+    
+}
+
+#save-settings-button {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    text-shadow: none;
+    top: -10px;
+    margin-left: 1px;
+    border: 1px solid #2271b1;
+    border-radius: 3px;
+    background: #f6f7f7;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 2.15384615;
+    color: #2271b1;
+    padding: 0 10px;
+    min-height: 30px;
+}
+
+#save-settings-button:hover {
+    background-color: lightgray;
+}
+
+.api-key-wrapper {
+    display: auto;
+    align-items: center;
+}
+
+.post-title-container {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.audio-file-container {
+    margin-bottom: 20px;
+}
+
+.media-library-container {
+    margin-top: 10px;
+}
+
+#selectFromMediaLibrary:hover {
+    background-color: lightgray;
+}
+
