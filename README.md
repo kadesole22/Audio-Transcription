@@ -17,4 +17,6 @@ After you upload and transcribe you will be provided with a link to review your 
 
 
 You could also manually navigate to it by opening your post section in your admin dashboard.
+
+
 ![My Image](manual_navigation.JPG)
